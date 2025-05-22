@@ -58,7 +58,7 @@ const Navbar = () => {
               }}
               className="text-2xl font-bold gradient-text"
             >
-              YJY
+              YJY Portfolio
             </a>
           </motion.div>
 

@@ -142,25 +142,6 @@ const Projects = () => {
                         ))}
                       </div>
 
-                      {/* Project Actions */}
-                      <div className="flex gap-4">
-                        <motion.button
-                          whileHover={{ scale: 1.05 }}
-                          whileTap={{ scale: 0.95 }}
-                          className="flex items-center gap-2 px-4 py-2 bg-secondary-100 hover:bg-secondary-200 text-secondary-800 rounded-lg transition-all duration-300 border border-secondary-300"
-                        >
-                          <FaGithub className="w-4 h-4" />
-                          View Code
-                        </motion.button>
-                        <motion.button
-                          whileHover={{ scale: 1.05 }}
-                          whileTap={{ scale: 0.95 }}
-                          className="flex items-center gap-2 px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-lg transition-all duration-300"
-                        >
-                          <HiExternalLink className="w-4 h-4" />
-                          Live Demo
-                        </motion.button>
-                      </div>
                     </div>
                   </div>
                 </div>
